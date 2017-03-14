@@ -5,7 +5,7 @@ import java.util.HashMap;
 //extended problem for 8-node graph
 public class TravelingSalesmanIndividual extends Individual {
 
-	//IT IS VERY IMPORTATNT TO ALWAYS HAVE THOSE TWO SET PROPERLY
+	//IT IS VERY IMPORTATNT TO ALWAYS HAVE THESE TWO SET PROPERLY
 	public static int nodeLength = 3;
 	public static int graphNodes = 8;
 	
