@@ -9,6 +9,7 @@ public class AppMain {
 		for(int i=0; i<Config.populations; i++) {
 			System.out.println("Generation "+i+":");
 			tp.printBest();
+			//tp.printPopulation();
 			System.out.println();
 			tp = tp.reproduct();
 		}
